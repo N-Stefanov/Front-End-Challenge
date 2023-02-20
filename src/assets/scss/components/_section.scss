@@ -1,0 +1,48 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section {
+	padding: 12.2rem 0;
+	min-height: 100vh;
+	border-top-left-radius: 12rem;
+	border-bottom-right-radius: 12rem;
+	background: rgb(250,245,255);
+	background: linear-gradient(116deg, rgba(250,245,255,1) 0%, rgba(238,247,255,1) 100%);
+	
+	@include breakpoint-down(tablet) {
+		padding: 8rem 0;
+		border-top-left-radius: 8rem;
+		border-bottom-right-radius: 0rem;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 4.4rem 0;
+		overflow: hidden;
+		border-top-left-radius: 3.2rem;
+	}
+
+	h1 {
+		font-weight: 900;
+		 
+		span {
+			background: #0E9BFC;
+			background: linear-gradient(270deg, #0E9BFC -21.52%, #FF00C7 124.69%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+
+	.section__head {
+		margin-bottom: 8rem; 
+		text-align: center;
+
+		@include breakpoint-down(tablet) {
+			margin-bottom: 8.3rem; 
+		}
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 4rem; 
+		}
+	}
+}

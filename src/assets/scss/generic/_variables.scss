@@ -1,0 +1,35 @@
+//Variables
+$font-size-base             : 1.8rem;
+$font-weight-base           : 400;
+$line-height-base           : 1.56;
+
+$ff-nunito-sans              : "Nunito Sans", sans-serif;
+$ff-roboto                   : Roboto, sans-serif;
+
+$t-duration                 : 0.4s;
+
+$shell-max-width            : 114rem;
+$shell-gutter               : 1.8rem;
+
+$c-black                    : #000;
+$c-white                    : #fff;
+$c-base                     : #3B4460;
+
+$responsive-ios             : 812px;
+
+$breakpoints: (
+	mobile-small: 374px,
+	mobile-medium: 575px,
+	mobile: 767px,
+	admin-bar: 782px,
+	tablet: 1023px,
+	small-desktop: 1199px,
+	large-desktop: 1399px
+);
+
+$h1: 5.6rem;
+$h2: 2rem;
+$h3: 1.8rem;
+$h4: 1.6rem;
+$h5: 1.4rem;
+$h6: 1.2rem;

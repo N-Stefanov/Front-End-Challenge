@@ -1,0 +1,25 @@
+{
+	"type": "html",
+	"client_name": "despark",
+	"project_name": "Front End Challenge",
+
+	"exclude_from_client_archive": [
+		"settings.json",
+		"~html-vs-design",
+		"~screenshots",
+		"node_modules"
+	],
+
+	"cleanup_in_old_working_copies": [
+		"~screenshots",
+		"~slices",
+		"~html-vs-design"
+	],
+
+	"build": "drone",
+
+	"scripts": {
+		"default": "npm start",
+		"build": "npm run build"
+	}
+}
