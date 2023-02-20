@@ -27,7 +27,8 @@
 	
 	.accordion__head {
 		padding-bottom: 2.6rem;
-		position: relative; 
+		position: relative;
+		cursor: pointer;
 
 		@include breakpoint-down(tablet) {
 			padding-bottom: 2.5rem; 
